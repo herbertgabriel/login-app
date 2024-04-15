@@ -1,0 +1,44 @@
+.initial-div {
+  background-color: #4169E1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  color: white;
+}
+
+.left-title {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+}
+
+.login {
+  padding: 16px;
+  color: black;
+  height: fit-content;
+  min-height: 40vh;
+  width: 30%;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin: 32px;
+  margin-top: 10%;
+  background-color: white;
+}
+
+.login > h1 {
+  color: #4169E1;
+  text-align: center;
+}
+
+.login > h2 {
+  color: black;
+  text-align: left;
+}
+
+.login > div > Button {
+  margin-top: 32px;
+}
