@@ -1,4 +1,4 @@
-import matematicas from './assets/matematicas.png';
+import matematicas from '../../assets/matematicas.png';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import './App.css';
